@@ -49,6 +49,13 @@
   --text-display--line-height: 1.1;
 }
 
+/* Inline-Messwerte im Fließtext: Mono, aber auf Sans-Proportionen gebremst,
+   damit Zahlen herausstechen ohne die Zeile zu sprengen. */
+@utility num {
+  font-family: var(--font-mono);
+  font-size: 0.9375em;
+}
+
 @layer base {
   :root {
     color-scheme: light dark;
