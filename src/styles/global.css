@@ -41,6 +41,10 @@
 }
 
 @layer base {
+  :root {
+    color-scheme: only light;
+  }
+
   body {
     @apply bg-paper font-sans text-body text-ink;
   }
