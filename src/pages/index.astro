@@ -6,8 +6,13 @@ import Base from "../layouts/Base.astro";
   title="Marek Sommer"
   description="Marek Sommer — AI Consultant mit kaufmännischem Fundament. Wirtschaftsprüfung, Controlling, Vertrieb; Schwerpunkt KI, Digitalisierung und Nachhaltigkeit."
 >
-  <header>
-    <h1 class="text-display">Marek Sommer</h1>
+  <header class="pt-2 md:pt-8">
+    <p class="font-mono text-label text-muted uppercase">
+      AI Consultant · Krämer IT Solutions
+    </p>
+    <h1 class="mt-3 text-display font-semibold tracking-tight">
+      Marek Sommer
+    </h1>
     <p class="mt-6 max-w-prose">
       AI Consultant mit kaufmännischem Fundament (B.Sc. Umwelt- &amp;
       Betriebswirtschaftslehre, Ausbildung zum Informatikkaufmann) und Praxis
@@ -15,21 +20,31 @@ import Base from "../layouts/Base.astro";
       betriebswirtschaftliches Verständnis mit IT-Affinität und einem
       Schwerpunkt auf KI, Digitalisierung und Nachhaltigkeit.
     </p>
-    <a href="#kontakt" class="mt-6 inline-block font-mono text-label uppercase"
-      >Kontakt ↓</a
-    >
+    <p class="mt-8 flex flex-wrap gap-x-8 gap-y-2 font-mono text-label uppercase">
+      <a href="mailto:mareksommer39@gmail.com">E-Mail</a>
+      <a href="https://www.linkedin.com/in/marek-sommer-40a132295/" rel="me noopener"
+        >LinkedIn ↗</a
+      >
+    </p>
   </header>
 
-  <section class="mt-16 md:mt-24" aria-labelledby="werdegang">
-    <h2 id="werdegang" class="font-mono text-label text-muted uppercase">
+  <section class="mt-20 md:mt-28" aria-labelledby="werdegang">
+    <h2
+      id="werdegang"
+      class="flex items-center gap-4 font-mono text-label text-muted uppercase"
+    >
+      <span class="text-signal" aria-hidden="true">01</span>
       Werdegang
+      <span class="h-px flex-1 bg-line" aria-hidden="true"></span>
     </h2>
-    <ol class="mt-4 space-y-10" role="list">
+    <ol class="mt-10 space-y-12" role="list">
       <li class="sm:grid sm:grid-cols-[8.5rem_1fr] sm:gap-6">
         <p class="font-mono text-label text-muted">07/26 – heute</p>
         <div>
-          <h3 class="mt-1 sm:mt-0">Krämer IT Solutions — AI Consultant</h3>
-          <ul class="mt-2 list-disc space-y-1 pl-5 text-muted">
+          <h3 class="mt-1 font-semibold sm:mt-0">
+            Krämer IT Solutions — AI Consultant
+          </h3>
+          <ul class="mt-3 list-disc space-y-1.5 pl-5 text-muted marker:text-line">
             <li>Strukturierung der Marktstrategie für die KI-Services</li>
             <li>Mitentwicklung des Vertriebsprozesses</li>
             <li>Planung und Umsetzung von Prozessautomatisierungen</li>
@@ -39,10 +54,10 @@ import Base from "../layouts/Base.astro";
       <li class="sm:grid sm:grid-cols-[8.5rem_1fr] sm:gap-6">
         <p class="font-mono text-label text-muted">01/25 – 05/25</p>
         <div>
-          <h3 class="mt-1 sm:mt-0">
+          <h3 class="mt-1 font-semibold sm:mt-0">
             PwC Luxemburg — Praktikant Wirtschaftsprüfung
           </h3>
-          <ul class="mt-2 list-disc space-y-1 pl-5 text-muted">
+          <ul class="mt-3 list-disc space-y-1.5 pl-5 text-muted marker:text-line">
             <li>
               Eigenständige substanzielle und analytische Prüfungshandlungen
               auf Bilanz- und GuV-Posten bei Jahresabschlussprüfungen
@@ -53,10 +68,10 @@ import Base from "../layouts/Base.astro";
       <li class="sm:grid sm:grid-cols-[8.5rem_1fr] sm:gap-6">
         <p class="font-mono text-label text-muted">09/22 – 09/23</p>
         <div>
-          <h3 class="mt-1 sm:mt-0">
+          <h3 class="mt-1 font-semibold sm:mt-0">
             Bayerische Landesbrandversicherung — Werkstudent Vertriebsbetreuung
           </h3>
-          <ul class="mt-2 list-disc space-y-1 pl-5 text-muted">
+          <ul class="mt-3 list-disc space-y-1.5 pl-5 text-muted marker:text-line">
             <li>
               Eigenständige Erstellung und Betreuung des Saldencontrollings für
               die Führungsebene
@@ -71,10 +86,10 @@ import Base from "../layouts/Base.astro";
       <li class="sm:grid sm:grid-cols-[8.5rem_1fr] sm:gap-6">
         <p class="font-mono text-label text-muted">08/19 – 01/22</p>
         <div>
-          <h3 class="mt-1 sm:mt-0">
+          <h3 class="mt-1 font-semibold sm:mt-0">
             Smart InsurTech AG — Auszubildender Informatikkaufmann
           </h3>
-          <ul class="mt-2 list-disc space-y-1 pl-5 text-muted">
+          <ul class="mt-3 list-disc space-y-1.5 pl-5 text-muted marker:text-line">
             <li>Eigenständiges Planen und Durchführen von Beratungen</li>
             <li>Vorstellen von Plattformlösungen nach Kundenbedürfnissen</li>
             <li>Bearbeiten von Kundenanfragen, Incidents und Störungen</li>
@@ -84,19 +99,24 @@ import Base from "../layouts/Base.astro";
     </ol>
   </section>
 
-  <section class="mt-16 md:mt-24" aria-labelledby="ausbildung">
-    <h2 id="ausbildung" class="font-mono text-label text-muted uppercase">
+  <section class="mt-20 md:mt-28" aria-labelledby="ausbildung">
+    <h2
+      id="ausbildung"
+      class="flex items-center gap-4 font-mono text-label text-muted uppercase"
+    >
+      <span class="text-signal" aria-hidden="true">02</span>
       Ausbildung
+      <span class="h-px flex-1 bg-line" aria-hidden="true"></span>
     </h2>
-    <ol class="mt-4 space-y-10" role="list">
+    <ol class="mt-10 space-y-12" role="list">
       <li class="sm:grid sm:grid-cols-[8.5rem_1fr] sm:gap-6">
         <p class="font-mono text-label text-muted">04/22 – 06/26</p>
         <div>
-          <h3 class="mt-1 sm:mt-0">
+          <h3 class="mt-1 font-semibold sm:mt-0">
             B.Sc. Umwelt- &amp; Betriebswirtschaftslehre — Umweltcampus
             Birkenfeld
           </h3>
-          <ul class="mt-2 list-disc space-y-1 pl-5 text-muted">
+          <ul class="mt-3 list-disc space-y-1.5 pl-5 text-muted marker:text-line">
             <li>
               Schwerpunkte: Digitale Geschäftsmodelle &amp;
               Nachhaltigkeitsberichterstattung — Abschlussnote
@@ -113,10 +133,10 @@ import Base from "../layouts/Base.astro";
       <li class="sm:grid sm:grid-cols-[8.5rem_1fr] sm:gap-6">
         <p class="font-mono text-label text-muted">10/18 – 09/21</p>
         <div>
-          <h3 class="mt-1 sm:mt-0">
+          <h3 class="mt-1 font-semibold sm:mt-0">
             Ausbildung zum Informatikkaufmann — KBBZ Halberg
           </h3>
-          <ul class="mt-2 list-disc space-y-1 pl-5 text-muted">
+          <ul class="mt-3 list-disc space-y-1.5 pl-5 text-muted marker:text-line">
             <li>
               Schwerpunkt: Kosten-Nutzen-Analyse von Soft- &amp;
               Hardwarekomponenten — Abschlussnote
@@ -128,44 +148,63 @@ import Base from "../layouts/Base.astro";
     </ol>
   </section>
 
-  <section class="mt-16 md:mt-24" aria-labelledby="sport">
-    <h2 id="sport" class="font-mono text-label text-muted uppercase">Sport</h2>
-    <p class="mt-4">
-      Seit zwei Jahren wieder Kraftsport, inzwischen mit Cardio ergänzt.
-      Habacher Firmenlauf, <span class="font-mono">5 km</span> in
-      <span class="font-mono">23:43</span>. Bei Hitze.
-    </p>
-  </section>
-
-  <section class="mt-16 md:mt-24" aria-labelledby="kulinarik">
-    <h2 id="kulinarik" class="font-mono text-label text-muted uppercase">
-      Kulinarik
+  <section class="mt-20 md:mt-28" aria-labelledby="persoenliches">
+    <h2
+      id="persoenliches"
+      class="flex items-center gap-4 font-mono text-label text-muted uppercase"
+    >
+      <span class="text-signal" aria-hidden="true">03</span>
+      Persönliches
+      <span class="h-px flex-1 bg-line" aria-hidden="true"></span>
     </h2>
-    <p class="mt-4">
-      Seit sechs Jahren Sauerteig. Für den ersten Starter habe ich zwei Anläufe
-      gebraucht. Inzwischen backe ich Brote mit bis zu
-      <span class="font-mono">80 %</span> Hydration.
-    </p>
-    <p class="mt-4">
-      Neulich hat die Hitzewelle meine Kultur gekippt. Ich suche gerade neues
-      Anstellgut.
-    </p>
+    <div class="mt-10 grid gap-12 md:grid-cols-2 md:gap-10">
+      <div>
+        <h3 class="font-mono text-label text-muted uppercase">Sport</h3>
+        <p class="mt-3">
+          Seit zwei Jahren wieder Kraftsport, inzwischen mit Cardio ergänzt.
+          Habacher Firmenlauf, <span class="font-mono">5 km</span> in
+          <span class="font-mono">23:43</span>. Bei Hitze.
+        </p>
+      </div>
+      <div>
+        <h3 class="font-mono text-label text-muted uppercase">Kulinarik</h3>
+        <p class="mt-3">
+          Seit sechs Jahren Sauerteig. Für den ersten Starter habe ich zwei
+          Anläufe gebraucht. Inzwischen backe ich Brote mit bis zu
+          <span class="font-mono">80 %</span> Hydration.
+        </p>
+        <p class="mt-3">
+          Neulich hat die Hitzewelle meine Kultur gekippt. Ich suche gerade
+          neues Anstellgut.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <section class="mt-16 md:mt-24" aria-labelledby="kontakt">
-    <h2 id="kontakt" class="font-mono text-label text-muted uppercase">
+  <section class="mt-20 md:mt-28" aria-labelledby="kontakt">
+    <h2
+      id="kontakt"
+      class="flex items-center gap-4 font-mono text-label text-muted uppercase"
+    >
+      <span class="text-signal" aria-hidden="true">04</span>
       Kontakt
+      <span class="h-px flex-1 bg-line" aria-hidden="true"></span>
     </h2>
-    <ul class="mt-4 space-y-2 font-mono">
-      <li>
-        <a href="mailto:mareksommer39@gmail.com">mareksommer39@gmail.com</a>
-      </li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/marek-sommer-40a132295/"
-          rel="me noopener">LinkedIn</a
-        >
-      </li>
-    </ul>
+    <p class="mt-10">
+      <a href="mailto:mareksommer39@gmail.com" class="font-mono text-lead"
+        >mareksommer39@gmail.com</a
+      >
+    </p>
+    <p class="mt-4">
+      <a
+        href="https://www.linkedin.com/in/marek-sommer-40a132295/"
+        rel="me noopener"
+        class="font-mono">LinkedIn ↗</a
+      >
+    </p>
   </section>
+
+  <footer class="mt-24 border-t border-line pt-6 md:mt-32">
+    <p class="font-mono text-label text-muted">© 2026 Marek Sommer</p>
+  </footer>
 </Base>
